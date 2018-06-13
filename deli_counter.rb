@@ -14,6 +14,10 @@ def take_a_number(list, name)
   puts "Welcome, #{name}. You are number #{position} in line."
 end
 
+def now_serving()
+  
+end
+
 describe 'Deli Counter' do
 
   let(:katz_deli) { [] }
