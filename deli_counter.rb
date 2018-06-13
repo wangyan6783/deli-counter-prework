@@ -1,14 +1,14 @@
-def line(array)
-  if array.size != 0
+def line(list)
+  if list.size != 0
     message = "The line is currently: "
-    array.each_with_index {|name, i| message += "#{i+1}. #{name} "}
+    list.each_with_index {|name, i| message += "#{i+1}. #{name} "}
     return message.chop
   else
     "The line is currently empty."
   end
 end
 
-def take_a_number
+def take_a_number(line, name)
   
 end
 
