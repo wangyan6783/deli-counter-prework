@@ -16,10 +16,10 @@ end
 
 def now_serving(list)
   if list.size != 0
-    
+    name = list.shift
+    puts "Currently serving #{name}."
   end
 end
-
 
 
   describe "#now_serving" do
