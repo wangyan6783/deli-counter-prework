@@ -1,12 +1,6 @@
 def line(array)
   if array.size != 0
     message = "The line is currently: "
-    # i = 0
-    # while i < array.size
-    #   name = array[i]
-    #   message += "#{i+1}. #{name} "
-    #   i += 1
-    # end
     array.each_with_index {|name, i| message += "#{i+1}. #{name} "}
     return message.chop
   else
