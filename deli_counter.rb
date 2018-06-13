@@ -18,6 +18,8 @@ def now_serving(list)
   if list.size != 0
     name = list.shift
     puts "Currently serving #{name}."
+  else
+    puts "There is nobody waiting to be served!"
   end
 end
 
