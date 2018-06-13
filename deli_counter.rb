@@ -11,7 +11,7 @@ end
 def take_a_number(list, name)
   list << name
   position = list.size
-  "Welcome, Ada. You are number 1 in line."
+  puts "Welcome, #{name}. You are number #{position} in line."
 end
 
 describe 'Deli Counter' do
