@@ -9,7 +9,7 @@ def line(list)
 end
 
 def take_a_number(list, name)
-  
+  list << name
 end
 
 describe 'Deli Counter' do
