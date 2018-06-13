@@ -7,6 +7,7 @@ def line(array)
     #   message += "#{i+1}. #{name} "
     #   i += 1
     # end
+    array.each {|name| }
     return message.chop
   else
     "The line is currently empty."
