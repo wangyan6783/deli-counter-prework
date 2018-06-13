@@ -1,12 +1,12 @@
 def line(array)
   if array.size != 0
     message = "The line is currently: "
-    i = 0
-    while i < array.size
-      name = array[i]
-      message += "#{i+1}. #{name} "
-      i += 1
-    end
+    # i = 0
+    # while i < array.size
+    #   name = array[i]
+    #   message += "#{i+1}. #{name} "
+    #   i += 1
+    # end
     return message.chop
   else
     "The line is currently empty."
