@@ -2,9 +2,9 @@ def line(list)
   if list.size != 0
     message = "The line is currently: "
     list.each_with_index {|name, i| message += "#{i+1}. #{name} "}
-    return message.chop
+    puts message.chop
   else
-    "The line is currently empty."
+    puts "The line is currently empty."
   end
 end
 
