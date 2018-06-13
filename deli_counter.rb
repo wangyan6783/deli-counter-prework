@@ -8,7 +8,7 @@ def line(list)
   end
 end
 
-def take_a_number(line, name)
+def take_a_number(list, name)
   
 end
 
